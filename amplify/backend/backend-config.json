@@ -1,6 +1,6 @@
 {
   "auth": {
-    "devauth14895e4f": {
+    "devb8776ef0": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

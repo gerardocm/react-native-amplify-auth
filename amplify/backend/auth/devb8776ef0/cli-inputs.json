@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "devauth14895e4f_identitypool_14895e4f",
+    "identityPoolName": "devb8776ef0_identitypool_b8776ef0",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "devaut14895e4f",
-    "userPoolName": "devauth14895e4f_userpool_14895e4f",
+    "resourceNameTruncated": "devb8776ef0",
+    "userPoolName": "devb8776ef0_userpool_b8776ef0",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,17 +31,18 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "devaut14895e4f_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "devb87b8776ef0_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "14895e4f",
-    "resourceName": "devauth14895e4f",
+    "sharedId": "b8776ef0",
+    "resourceName": "devb8776ef0",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "defaultSocial",
     "hostedUI": true,
     "usernameAttributes": [
       "email"
     ],
-    "hostedUIDomainName": "devauth",
+    "triggers": {},
+    "hostedUIDomainName": "dd-dev",
     "authProvidersUserPool": [
       "Facebook",
       "Google"
@@ -65,6 +66,11 @@
     },
     "breakCircularDependency": true,
     "dependsOn": [],
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/signout/\"]}"
+    "hostedUIProviderCreds": "[]",
+    "parentStack": {
+      "Ref": "AWS::StackId"
+    },
+    "permissions": [],
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"exp://192.168.68.106:19000/\"],\"LogoutURLs\":[\"exp://192.168.68.106:19000/\"]}"
   }
 }
