@@ -25,7 +25,13 @@ Run: `yarn add aws-amplify @aws-amplify/core aws-amplify-react-native @react-nat
     - What to include as redirect in AWS cognito config?
     - What to include as FB oatuh redirect URI?
 
+11. Add social auth buttons to Amplify authenticator
+12. Customise Amplify Authenticator theme: `https://github.com/aws-amplify/amplify-js/blob/main/packages/aws-amplify-react-native/src/AmplifyTheme.ts`
+
 11. Open FB login with FB app?
 
 <!-- 9. Amplify configure in the application with `amplify configure` -->
 
+Sources:
+https://blog.logrocket.com/aws-amplify-react-native-tutorial-with-examples/
+https://docs.amplify.aws/lib/auth/social/q/platform/js/#full-samples
